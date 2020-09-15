@@ -8,11 +8,32 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="col-md-12 bg-dark text-light p-2">
-            <a>Project Exercise #9</a>
-        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="col-md-2 text-white-50">
+                <h5>Project Exercise #9</h5>
+            </div>
+            <div class="row col-md-6">
+                <button type="button" class="btn btn-secondary">Home</button>
+                <button type="button" class="btn btn-secondary">About</button>
+                <button type="button" class="btn btn-secondary">Contact</button>
+                <buttonid="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">Action</button>
+                    <button class="dropdown-item" type="button">Another action</button>
+                    <button class="dropdown-item" type="button">Something else here</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <form class="form-inline my-2 my-lg-0">
+                    <input tupe="text" class="form-control mr-sm-2" placeholder="Email">
+                    <input tupe="text" class="form-control mr-sm-2" placeholder="Password">
+                    <button type="button" class="btn btn-success my-2 my-sm-0">Sign In</button>
+                </form>
+                
+            </div>
+        </nav>
         <div class="col-md-12 bg-light p-3">
-            <h1>Hello, world!</h1>
+            <h1 class="row">Hello, world!</h1>
             <p>This is Exercise #9. It includes a large callout called a jumbotron and three supporting pieses of content.</p>
         </div>
         <div class='row col-md-12'>
@@ -33,6 +54,9 @@
        
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
 
